@@ -3,7 +3,7 @@
 👋 Olá visitante!  
 
 
-## 📚 O que vou aprender?  
+## 📚 O que aprendi  
 
 - Como configurar um projeto Cypress do zero  
 - Como acessar páginas locais e externas  
