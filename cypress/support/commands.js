@@ -2,7 +2,7 @@ Cypress.Commands.add('fillMandatoryFieldsAndSubmit', (data = {
         firstName:'Beatriz',
         lastName:'Amaya',
         email:'bia123@email.com',
-        beatriz:'Text'
+        text:'Text'
 
 }) => {
     cy.get('#firstName').type(data.firstName)
