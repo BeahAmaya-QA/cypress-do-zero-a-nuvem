@@ -117,7 +117,7 @@ describe('Central de Atendimento ao Cliente TAT', function() {
             //cria novo comando no arquivo commands.js
             //e chama o comando direto otimizando em linha de código
 
-            it('envia o formuário com sucesso usando um comando customizado', function(){
+            it('envia o formuário com sucesso usando um comando customizado', function(){              
                 cy.fillMandatoryFieldsAndSubmit()               
 
                 cy.get('.success').should('be.visible')
